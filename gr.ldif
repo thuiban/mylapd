@@ -1,0 +1,27 @@
+dn: cn=Direction, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixGroup
+cn: Direction
+gidNumber: 1111
+description: Groupe de la direction
+
+dn: cn=Comptabilite, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixGroup
+cn: Comptabilite
+gidNumber: 1112
+description: Groupe de la comptabilite
+
+dn: cn=Administration, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixGroup
+cn: Administration
+gidNumber: 1113
+description: Groupe de l'administration
+
+dn: cn=Salaries, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixGroup
+cn: Salaries
+gidNumber: 1114
+description: Groupe des salaries

@@ -1,0 +1,208 @@
+# Groupe Direction GID:1111
+
+dn: uid=emmanuel, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: emmanuel
+cn: Emmanuel
+sn: Emmanuel
+uidNumber: 1100
+gidNumber: 1111
+homeDirectory: /home/direction/emmanuel
+loginShell: /bin/bash
+userPassword: emmanuel
+l: France
+ou: Direction
+
+dn: uid=pierre-jean, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: pierre-jean
+cn: Pierre-Jean
+sn: Pierre-Jean
+uidNumber: 1101
+gidNumber: 1111
+homeDirectory: /home/direction/pierre-jean
+loginShell: /bin/bash
+userPassword: pierre-jean
+l: France
+ou: Direction
+
+dn: uid=axelle, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: axelle
+cn: Axelle
+sn: Axelle
+uidNumber: 1102
+gidNumber: 1111
+homeDirectory: /home/direction/axelle
+loginShell: /bin/bash
+userPassword: axelle
+l: France
+ou: Direction
+
+#Groupe Comptabilite GID 1112
+
+dn: uid=jocelyne, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: jocelyne
+cn: Jocelyne
+sn: Jocelyne
+uidNumber: 1103
+gidNumber: 1112
+homeDirectory: /home/compatibilite/jocelyne
+loginShell: /bin/bash
+userPassword: jocelyne
+l: France
+ou: Comptabilite
+
+dn: uid=nesrine, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: nesrine
+cn: Nesrine
+sn: Nesrine
+uidNumber: 1104
+gidNumber: 1112
+homeDirectory: /home/compatibilite/nesrine
+loginShell: /bin/bash
+userPassword: nesrine
+l: France
+ou: Compatibilite
+
+dn: uid=gerard, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: gerard
+cn: Gerard
+sn: Gerard
+uidNumber: 1105
+gidNumber: 1112
+homeDirectory: /home/compatibilite/gerard
+loginShell: /bin/bash
+userPassword: gerard
+l: France
+ou: Compatibilite 
+ 
+
+# Groupe Administration GID:1113
+
+dn: uid=stephanie, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: stephanie
+cn: Stephanie
+sn: Stephanie
+uidNumber: 1106
+gidNumber: 1113
+homeDirectory: /home/administration/stephanie
+loginShell: /bin/bash
+userPassword: stephanie
+l: France
+ou: Administration
+
+dn: uid=leslie, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: leslie
+cn: Leslie
+sn: Leslie
+uidNumber: 1107
+gidNumber: 1113
+homeDirectory: /home/administration/leslie
+loginShell: /bin/bash
+userPassword: leslie
+l: France
+ou: Administration
+
+dn: uid=marc, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: marc
+cn: Marc
+sn: Marc
+uidNumber: 1108
+gidNumber: 1113
+homeDirectory: /home/administration/marc
+loginShell: /bin/bash
+userPassword: marc
+l: France
+ou: Administration
+
+#Groupe Salaries GID 1114
+
+dn: uid=hadrien, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: hadrien
+cn: Hadrien
+sn: Hadrien
+uidNumber: 1109
+gidNumber: 1114
+homeDirectory: /home/salaries/hadrien
+loginShell: /bin/bash
+userPassword: hadrien
+l: France
+ou: Salaries
+
+dn: uid=bruno, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: bruno
+cn: Bruno
+sn: Bruno
+uidNumber: 1110
+gidNumber: 1114
+homeDirectory: /home/salaries/bruno
+loginShell: /bin/bash
+userPassword: bruno
+l: France
+ou: Salaries
+
+dn: uid=elodie, dc=asrlab, dc=lan
+objectClass: top
+objectClass: posixAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: elodie
+cn: Elodie
+sn: Elodie
+uidNumber: 1111
+gidNumber: 1114
+homeDirectory: /home/salaries/elodie
+loginShell: /bin/bash
+userPassword: elodie
+l: France
+ou: Salaries
